@@ -1,0 +1,425 @@
+
+@font-face {
+  font-family: 'Sailec';
+  src: url("../fonts/Type\ Dynamic\ -\ Sailec.otf");
+
+}
+
+/*
+ * 	Default theme - Owl Carousel CSS File
+ */
+/*!
+ * Bootstrap v4.5.3 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+/* line 2, src/assets/scss/bootstrap/_root.scss */
+:root {
+  --blue: #5e72e4;
+  --indigo: #31316A;
+  --purple: #8965e0;
+}
+
+/* line 19, src/assets/scss/bootstrap/_reboot.scss */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* line 25, src/assets/scss/bootstrap/_reboot.scss */
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* line 35, src/assets/scss/bootstrap/_reboot.scss */
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+/* line 46, src/assets/scss/bootstrap/_reboot.scss */
+body {
+  margin: 0;
+  font-family: 'Sailec';
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #707070;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+.btn-kalose {
+  border: 1px solid #102421;
+box-sizing: border-box;
+border-radius: 31px;
+color:#151442;
+width: 188px;
+height:61px;
+padding: 20px 0;
+position: absolute;
+right:0;
+top:5px;
+}
+.btn-kalose:hover {
+  border: 1px solid #102421;
+  background: #000;
+  color: #fff!Important;
+}
+.btn-banner {
+color: #000;
+    background-color: #ffffff;
+    border-color: #6c757d;
+    border-radius: 50px;
+    font-size: 12px;
+    width: 135px;
+    margin-right: 15px;
+    padding: 9px;
+}
+.btn-banner:hover {
+  color: #fff;
+  background-color: #0c0c0c;
+  border-color: #ffffff;
+}
+.section-skin-care, .vitamin{
+  padding: 100px 0;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  letter-spacing: 4px;
+}
+.fixed-top {
+  padding: 50px 100px;
+  -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+.fixed-top.on-scroll {
+  padding: 10px 100px;
+  background:white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+
+}
+.fixed-top.on-scroll .navbar-brand {
+color:black
+}
+.hero-slider-content {
+  width: 100%;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  background: #102421;
+}
+.banner-img {
+  position: absolute;
+    z-index: 9;
+    top: 20%;
+    left: -10%;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 70%;
+}
+h1 {
+
+  font-weight: 600;
+}
+.text-space {
+  letter-spacing: 0.5em;
+}
+.icons li {
+  list-style: none;
+}
+.icons li a span{
+  width: 19px;
+    height: 19px;
+    display: inline-block;
+    background: black;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    line-height: 19px;
+    font-size: 10px;
+    margin-right: 7px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+ul.icons {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.banner-text {
+padding:22% 0 0 19%;
+}
+.section-header h2 {
+  font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 120.5%;
+color: #151442;
+}
+
+.section-header  {
+  padding-bottom:70px;
+}
+
+.skin-product-item h3{
+  font-family: Sailec;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 149.5%;
+color: #151442;
+}
+.skin-product-item h3 span { 
+font-weight: normal;
+font-size: 14px;
+line-height: 149.5%;
+color: #8F9095;
+display: block;
+}
+.skin-product-item p {
+  font-weight: 500;
+font-size: 16px;
+line-height: 149.5%;
+color: #8F9095;
+}
+
+.scroll-to-target {
+  background: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 10%;
+    right: 10px;
+    border: none;
+}
+
+
+.clients {
+background: url(../img/clients-bg.png);
+background-size: cover;
+}
+.testimonial-item {
+  background:#FFF3F3;
+  padding: 70px;
+    margin: 150px 0;
+}
+.testimonial-item p{
+  font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 125%;
+color: #342B42;
+position: relative;
+}
+.testimonial-item p::before{
+content:'';
+background: url('../img/test-one.svg'); /*url of image*/
+height: 36px; /*height of image*/
+width: 44px;  /*width of image*/
+position: absolute;
+top: -48px;
+    left: -41px;
+}
+.testimonial-item p::after{
+  content:'';
+  background: url('../img/test-two.svg'); /*url of image*/
+  height: 36px; /*height of image*/
+  width: 44px;  /*width of image*/
+  position: absolute;
+  bottom:-20px;
+  right:-30px
+  }
+
+.clients .section-header h2 {
+  margin-top:40%;
+  color: #ffffff;
+}
+.video-btn {
+
+  color: #fff!important;
+  cursor:pointer;
+    line-height: 39px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+}
+
+
+.benefits {
+  padding-bottom: 100px;
+  position: relative;
+}
+.benefits h2 {
+    font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 120.5%;
+  color: #151442;
+  padding-bottom: 70px;
+
+}
+.benefits:before{
+  content: "";
+  width: 75%;
+  margin: 0 auto;
+  height: 30px;
+  background: url(../img/line.svg) no-repeat;
+  top: -80px;
+  right: 0;
+  left: 0;
+  position: absolute;
+  display: inline-block;
+}
+
+.benefits-item p{
+
+  font-size: 18px;
+  line-height: 149.5%;
+  /* or 27px */
+  
+  text-align: center;
+  color: #151442;
+  padding-top:40px;
+
+}
+
+footer {
+  padding:140px 100px;
+  background: #0F2421;
+}
+footer h2 {
+  color: #fff;
+  font-weight: 500;
+font-size: 60px;
+}
+footer .copyright{
+  color:#fff ;
+  font-size: 14px;
+}
+.footer-sub h3 {
+  font-weight: 500;
+font-size: 18px;
+line-height: 282.5%;
+color: #FFFFFF;
+
+}
+.footer-sub ul {
+  padding-left: 0;
+}
+.footer-sub ul li {
+  font-size: 14px;
+  line-height: 200%;
+  color: #FFFFFF;
+  text-decoration: none;
+  list-style: none;
+}
+.footer-sub p {
+  font-size: 14px;
+  line-height: 200%;
+  color: #FFFFFF;
+}
+
+@media (max-width:768px){
+
+  .fixed-top {
+    padding: 10px 15px;
+  }
+  .banner-text {
+    padding: 8% 15px;
+    text-align: center;
+  }
+  .section-header .row{
+      flex-direction: column-reverse;
+  }
+  .banner-img {
+    position: relative;
+    left: 0;
+    max-width: 100%;
+}
+.fixed-top.on-scroll {
+  padding: 10px 15px;
+}
+ul.icons {
+  background: wheat;
+  padding: 20px 0;
+  text-align: center;
+}
+br {display:none}
+h1 {
+  font-size: 30px;
+}
+.hero-slider-content {
+  height: 51vh;
+}
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+.section-header {
+  padding-bottom: 0px;
+  text-align: center;
+}
+.section-header h2 {
+  font-size: 32px;
+}
+.section-skin-care, .vitamin {
+  padding: 40px 0;
+}
+.btn-kalose {
+ 
+  width: 188px;
+  height: 50px;
+  padding: 12px 0;
+  position: relative;
+  top: 0px;
+}
+.skin-product-item p {
+  font-size: 14px;
+}
+.skin-product-item h3 {
+  font-size: 25px;
+}
+.clients .section-header h2 {
+  margin-top: 10%;
+    font-size: 35px;
+    text-align: center;
+}
+.testimonial-item {
+  padding: 70px;
+  margin: 30px 0;
+}
+.carousel-wrap {
+  padding: 40px 0;
+}
+footer {
+  padding: 40px 15px;
+  text-align: center;
+}
+footer h2 {
+  font-size: 35px;
+}
+.navbar-nav {
+  background: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+
+}
